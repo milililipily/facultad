@@ -1,0 +1,272 @@
+.header {
+	background:#FFBF00;
+	padding:10px 15px ;
+}
+/*empezando el menu de nav*/
+.menu {
+	background:#A30936;
+	padding:10px;
+}
+/*--unsa-color blanco->*/
+.blanco h4{
+	color: #fff;
+}
+.menu1 span{
+	margin:0;
+}
+.menu1 .menu2 ul{
+	list-style:none;
+}
+
+.menu1 .menu2 ul li a{
+	color:black;
+	padding:15px;
+	display:block;
+	text-decoration: none;
+}
+.menu1 .menu2 ul li span{
+	margin-right: 10px;
+}
+.menu1 .menu2 ul li a:hover{
+	background:#A4A4A4;
+}
+.sombreado{
+	background:#EFECE7;
+}
+/*css del video en el incio (OPCIONAL)*/
+
+#background {
+	width:100%;
+    height:50%;
+    -webkit-transform: translateX(50%) translateY(50%);
+    transform: translateX(0%) translateY(0%);
+    background:cover;
+ 
+}
+.col-md-12 video{
+margin-bottom:40px
+}
+/*NOSOTROS CSS_-*/
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+
+}
+
+.thumbnail img {
+    width: 100%;
+    height:200px;
+    margin-bottom: 10px;
+}
+.borde img{
+	height:180px;
+}
+/**/
+
+/*acordeon*/
+.panel-title{
+background-color:#95917F;
+padding: 10px;
+}
+
+.panel-title:hover{
+	background-color: #DDD7CB;
+	text-decoration: none;
+	color: #fff;
+}
+.panel-title a:hover{
+	background-color: #DDD7CB;
+	text-decoration: none;
+	color: #fff;
+}
+.panel-heading{
+	text-align: center;
+}
+.panel-heading a{
+	font-size:30px;
+	text-decoration: none;
+	color: white;
+}
+.panel-default{
+	background-color:#EFECE7;
+	text-align: justify;
+}
+.panel-default p{
+	padding: 10px;
+}
+/*fin del acordeon*/
+
+/*lista de autoridades*/
+.lista{
+  list-style:none;
+  text-align:center;
+}
+.lista li 
+{
+    display:inline-block;
+    padding: 50px;
+}
+.lista a
+{
+    display:block;
+    padding:5px 20px;
+    color:#ED9819;
+    font-family:"oswald",arial,sans-serif;
+    text-decoration: none;
+}
+.lista a:hover
+{
+    text-decoration: none;/*despparece la linea que subraya a la palabra*/
+	background: #ececec;
+	transform:scale(1.2);/*agrande la letra*/
+	transition:all 0.5s;
+}
+.galeria-doc, 
+{
+  width:70%;
+  margin:auto;
+}
+.galeria-doc img
+{
+  border-radius:50%;
+  max-width:100%;
+  height:auto;
+}
+/*fin lista de autoridades*/
+/*Esto se aumento*/
+.autoridades a{
+  text-decoration: none;
+  color: white;
+  padding:40px;
+}
+.autoridades a:hover{
+  transform:scale(1.3);
+  transition:all 0.5s;
+  color: #FACC2E;
+}
+/*aqui termina*/
+/* inicio perfil autoridad*/
+
+
+
+/* inicio perfil autoridad*/
+.header-content
+{
+  width:100%;
+  margin: 0 auto;
+  padding:60px 20px 20px 20px;
+  background: url("../icons/fondo.jpg") center center;
+  color: white;
+}
+/*final perfil autoridad*/
+/*final perfil autoridad*/
+
+
+/*carreras-*/
+.col-sm-4{
+	text-align: center;
+}
+.col-sm-4 a:hover{
+	background:#EFECE7;
+	text-decoration:none;
+	padding:20px 150px;
+	transition:0.2s all;
+}
+li{
+
+	list-style: none;
+}
+@media screen and(max-width:992px){
+	.col-sm-4 ul{
+		width: 100%;
+	}
+}--*/
+/*CARRERAS__*/
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+/*ingenierias*/
+.menu-principal
+{
+	margin:40px 10px 0 40px;
+	position:fixed;
+}
+.bs-docs-sidenav{
+	background:#d8d8d8;
+}
+.bs-docs-sidenav span{
+	float:right;
+	padding-left:15px;
+	opacity:25;
+}
+.bs-docs-sidenav li {
+	border:2px solid grey;
+}
+.bs-docs-sidenav a {
+    color:black;
+}
+section 
+{
+	margin:100px;
+}
+.bottom button {
+	margin-top:15px;
+}
+/*inicio de galeria de autoridades*/
+.lista{
+  list-style:none;
+}
+.row  a img:hover 
+{
+    text-decoration: none;/*desaparece la linea que subraya a la palabra*/
+	background: #ececec;
+	transform:scale(0.9);/*disminuye el tamaño de la imagen*/
+	transition:all 0.5s;
+}
+.galeria-doc
+{
+  width:70%;
+  margin:auto;
+}
+.galeria-doc img 
+{
+  max-width:100%;
+  height:auto;
+}
+/*FOOTER*/
+footer{
+	background:black;
+	color: #fff;
+	text-align: center; 
+	
+}
+.container-fluid{
+	margin-top:30px;
+}
+.ir-arriba{
+	display: inline-block;
+	padding: 15px;
+	background:#A30936;
+	font-size:30px;
+	color: #fff; 
+	cursor: pointer;
+	
+	bottom: 0;
+	right: 0;
+}
+.social li{
+	display:inline-block;
+	margin:10px 10px 0 0;
+
+}
+.social a:hover{
+	display:block;
+	transform:scale(1.2);
+	transition:all 0.5s;
+}
