@@ -65,35 +65,35 @@ margin-bottom:40px
 
 /*acordeon*/
 .panel-title{
-background-color:#95917F;
+background-color:#ED9819;
 padding: 10px;
+text-decoration: none;
+padding-color:#ED9819;
 }
-
 .panel-title:hover{
-	background-color: #DDD7CB;
-	text-decoration: none;
-	color: #fff;
-}
-.panel-title a:hover{
-	background-color: #DDD7CB;
+	background-color:#ED9819;
 	text-decoration: none;
 	color: #fff;
 }
 .panel-heading{
 	text-align: center;
+	color:#fff;
+	
 }
 .panel-heading a{
 	font-size:30px;
 	text-decoration: none;
-	color: white;
+	color: green;
 }
 .panel-default{
 	background-color:#EFECE7;
 	text-align: justify;
+
 }
 .panel-default p{
 	padding: 10px;
-}
+
+	}
 /*fin del acordeon*/
 
 /*lista de autoridades*/
